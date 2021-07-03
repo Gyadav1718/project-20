@@ -1,6 +1,5 @@
 var wall,car;
 var speed,weight;
-
 function setup() {
   createCanvas(800,400);
  
@@ -11,7 +10,6 @@ wall.shapeColor= "blue";
 speed = random(50,120);
 weight = random(400,1500);
 car.velocityX= speed;
-
 
 }
 
